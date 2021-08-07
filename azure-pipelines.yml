@@ -19,3 +19,6 @@ steps:
   displayName: 'Run a multi-line script'
 
 
+- task: PowerShell@2
+  inputs:
+    filePath: 'installer_functions.ps1'
